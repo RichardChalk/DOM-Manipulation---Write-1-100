@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Jag lämnar dessa styling kvar som hjälptråd */
+
+.number-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.number {
+  border: 1px black solid;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+}
